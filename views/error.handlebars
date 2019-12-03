@@ -1,0 +1,56 @@
+<div class="error-container">
+    <div class="text-box">
+        <div class="card">
+            <div class="row no-gutters">
+                <div class="col-sm-5">
+                    <h1 id="f04" class="display-4">404</h1>
+                </div>
+                <div class="col-sm-7">
+                    <div class="grid-box">
+                        <h5 class="text-muted">Page not found</h5>
+                        <hr>
+                        <h5 class="text-muted">Try again later</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<style>
+    hr,
+    h5 {
+        margin: 0;
+        padding: 1px
+    }
+
+    .col-sm-5,
+    .col-sm-7 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .error-container {
+        height: calc(100vh - 60px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        padding: 10rem
+    }
+
+    .grid-box {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr auto 1fr;
+    }
+
+    hr {
+        width: 100%
+    }
+</style>
