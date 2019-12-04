@@ -4,30 +4,32 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgb(94, 57, 94);
-  background: linear-gradient(
-    90deg,
-    rgba(94, 57, 94, 1) 0%,
-    rgba(5, 67, 171, 0.737114914325105) 30%,
-    rgba(105, 9, 121, 0.695098107602416) 54%,
-    rgba(255, 0, 138, 1) 100%
-  );
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  overflow: hidden;
 }
 ul {
   list-style: none;
   margin: 0;
-  padding: 20px;
   margin-bottom: 30px;
 }
 li {
   display: block;
   float: left;
+  padding: 20px;
+  cursor: pointer;
+}
+nav {
   height: 100%;
 }
-
+li:hover {
+  box-shadow: inset -10px -10px 50px 4px rgba(0, 0, 0, 0.5);
+}
 a {
   text-decoration: none;
   display: block;
-  margin-right: 15px;
+
   color: #333;
+}
+#box{
+  display: none;
 }
