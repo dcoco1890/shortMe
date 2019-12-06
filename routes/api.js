@@ -1,9 +1,10 @@
 const db = require("../models");
-const url = require("url");
+const path = require("path");
 const validUrl = require("valid-url");
 const shortID = require("shortid");
+
 module.exports = app => {
-  app.get("/api/item/:code", (req, res) => {
+  app.get("/:code", (req, res) => {
     const URLcode = req.params.code;
     db.URL.findOne({ code: URLcode }).then(item => {
       if (item) {

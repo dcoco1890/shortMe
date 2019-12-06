@@ -1,7 +1,7 @@
 {
   "name": "shortMe",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "git@github.com:dcoco1890/shortMe.git",
   "author": "Cohen <dcoco91@gmail.com>",
   "license": "MIT",
